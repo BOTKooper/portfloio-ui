@@ -1,0 +1,16 @@
+@import url('./_colors.css');
+@import url('./whoami.css');
+@import url('./recent.css');
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+body {
+  margin: 0;
+}
+
+
+.centered_text {
+
+}

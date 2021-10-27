@@ -1,0 +1,17 @@
+.whoami {
+  min-height: 525px;
+}
+
+.whoami #r1 {
+  min-height: 400px;
+}
+
+
+#photo_container {
+  width: 250px;
+  height: 250px;
+  background-color: var(--light-cyan);
+  border-radius: 500px;
+}
+
+
