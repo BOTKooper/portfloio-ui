@@ -31,14 +31,14 @@
   </head>
   <body>
     <header class="container">
-      <nav class="row pt-7 d-none d-md-flex">
+      <nav class="row pt-7 hidden md:flex">
         <ul class="flex justify-end">
           <li class="ml-16"><a href="#featured" class="text-xl text-bold">Works</a></li>
           <li class="ml-16"><a href="#blog" class="text-xl text-bold">Blog</a></li>
           <li class="ml-16"><a href="#contacts" class="text-xl text-bold">Contacts</a></li>
         </ul>
       </nav>
-      <nav class="navbar navbar-light bg-white d-flex d-md-none">
+      <nav class="navbar navbar-light bg-white flex md:hidden">
           <a class="navbar-brand" href="#"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -100,9 +100,10 @@
 
       <section id="blog" class="recent">
         <div class="container">
-          <div class="py-3 mx-auto w-full flex justify-center md:justify-around">
-            <span class="ml-0">Recent Posts</span>
-            <a class="mr-0 d-none d-md-block text-blue-400 underline" href="#">View all</a>
+          <!-- <h2 class="block md:hidden py-3 mx-auto text-center w-full">Featured Works</h2> -->
+          <div class="py-3 flex mx-auto w-full">
+            <span class="ml-auto md:ml-0 mr-auto">Recent Posts</span>
+            <a class="mr-0 ml-auto hidden md:block text-blue-400 underline" href="#">View all</a>
           </div>
 
           <div class="flex justify-center flex-wrap pb-10">
