@@ -10,7 +10,8 @@ body {
   margin: 0;
 }
 
-
-.centered_text {
-
+@media (min-width: 768px) {
+  .md_imp_hack {
+    text-align: left !important;
+  }
 }

@@ -5,5 +5,13 @@
   "main": "index.js",
   "author": "BOTKooper <botkooper@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "npx tailwind -o assets/css/tailwind.css",
+    "watch": "npx tailwind -o assets/css/tailwind.css -w"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.2.17"
+  }
 }
