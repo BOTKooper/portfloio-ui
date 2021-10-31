@@ -33,13 +33,13 @@
     <header class="container">
       <nav class="row pt-7 hidden md:flex">
         <ul class="flex justify-end">
-          <li class="ml-16"><a href="#featured" class="text-xl font-bold">Works</a></li>
-          <li class="ml-16"><a href="#blog" class="text-xl font-bold">Blog</a></li>
+          <li class="ml-16"><a href="/blog.html" class="text-xl font-bold">Blog</a></li>
+          <li class="ml-16"><a href="/work.html" class="text-xl font-bold">Works</a></li>
           <li class="ml-16"><a href="#contacts" class="text-xl font-bold">Contacts</a></li>
         </ul>
       </nav>
       <div class="block md:hidden"></div>
-      <!-- <nav class="pt-7 flex md:hidden navbar navbar-expand-lg navbar-light bg-white">
+      <nav class="pt-7 flex md:hidden navbar navbar-expand-lg navbar-light bg-white">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -48,22 +48,22 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
           <ul class="navbar-nav mr-0 mt-2">
             <li class="nav-item mx-auto">
-              <a class="nav-link text-3xl font-bold text-black" href="#featured">Works</a>
+              <a class="nav-link text-3xl font-bold text-black" href="/blog.html">Blog</a>
             </li>
             <li class="nav-item mx-auto">
-              <a class="nav-link text-3xl font-bold text-black" href="#blog">Blog</a>
+              <a class="nav-link text-3xl font-bold text-black" href="/work.html">Works</a>
             </li>
             <li class="nav-item mx-auto">
               <a class="nav-link text-3xl font-bold text-black" href="#contacts">Contacts</a>
             </li>
           </ul>
         </div>
-      </nav> -->
+      </nav>
     </header>
 
     <main>
       <section class="whoami container">
-        <div class="row pt-20">
+        <div class="row pt-12">
           <div class="hidden md:block col-6 my-auto pb-10">
             <h1 class="font-bold text-5xl pb-10">Hi, I am John,<br />Creative Technologist</h1>
             <p class="text-base">
@@ -79,7 +79,7 @@
           </div>
 
           <div class="text-center block md:hidden my-auto pb-10 pb-10">
-            <h1 class="font-bold text-5xl pb-10">Hi, I am John,<br />Creative Technologist</h1>
+            <h1 class="font-bold text-3xl sm:text-5xl pb-10">Hi, I am John,<br />Creative Technologist</h1>
             <p class="text-base">
               Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
               enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
@@ -100,11 +100,11 @@
           <!-- <h2 class="block md:hidden py-3 mx-auto text-center w-full">Featured Works</h2> -->
           <div class="py-3 flex mx-auto w-full">
             <span class="ml-auto md:ml-0 mr-auto">Recent Posts</span>
-            <a class="mr-0 ml-auto hidden md:block text-blue-400 underline" href="#">View all</a>
+            <a class="mr-0 ml-auto hidden md:block text-blue-400 underline" href="/blog.html">View all</a>
           </div>
 
           <div class="flex justify-center flex-wrap pb-10">
-            <div class="bg-white w-10/12 md:w-96 py-auto ml-2 mb-10">
+            <div class="bg-white w-11/12 md:w-96 py-auto md:ml-2 mb-10">
               <div class="mx-6 py-6">
                 <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
                 <div class="flex py-4 align-items-center">
@@ -119,7 +119,7 @@
               </div>
             </div>
 
-            <div class="bg-white w-10/12 md:w-96 py-auto ml-2 mb-10">
+            <div class="bg-white w-11/12 md:w-96 py-auto md:ml-2 mb-10">
               <div class="mx-6 py-6">
                 <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
                 <div class="flex py-4 align-items-center">
@@ -134,7 +134,7 @@
               </div>
             </div>
 
-            <div class="bg-white w-10/12 md:w-96 py-auto ml-2 mb-10">
+            <div class="bg-white w-11/12 md:w-96 py-auto md:ml-2 mb-10">
               <div class="mx-6 py-6">
                 <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
                 <div class="flex py-4 align-items-center">
@@ -153,15 +153,19 @@
       </section>
 
       <section id="featured" class="featured bg-white">
-        <div class="container">
+        <div class="container space-y-10">
 
-          <h2 class="py-3 mx-auto text-center md_imp_hack">Featured Works</h2>
+          <h2 class="py-3 mx-auto text-center md:text-left">Featured Works</h2>
 
-          <div class="featured__post w-full py-3">
+          <div class="featured__post w-full">
             <div class="w-full">
-              <img class="w-full md:w-64 md:float-left" src="./assets/images/Rectangle 32.png" alt="Woman portrait in vibrant colors">
+              <div class="w-full md:w-64 md:float-left">
+                <img class="w-full" src="./assets/images/Rectangle 32.png" alt="Woman portrait in vibrant colors">
+              </div>
               <div class="featured__post__content mx-6 md:mx-1 md:ml-72 py-6">
-                <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
+                <a href="/work-post.html">
+                  <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
+                </a> 
                 <div class="flex py-4 align-items-center">
                   <time datetime="2018-02-14" class="font-light text-md bg-indigo-900 text-white rounded-3xl w-12 text-center">2018</time>
                   <div class="font-light ml-7 text-gray-400">Design, Pattern</div>
@@ -174,13 +178,17 @@
             </div>
 
           </div>
-          <hr style="color: #E0E0E0; background-color: #E0E0E0;">
+          <hr size="1" style="color: #E0E0E0; background-color: #E0E0E0;">
 
-          <div class="featured__post w-full py-3">
+          <div class="featured__post w-full">
             <div class="w-full">
-              <img class="w-full md:w-64 md:float-left" src="./assets/images/Rectangle 32.png" alt="Woman portrait in vibrant colors">
+              <div class="w-full md:w-64 md:float-left">
+                <img class="w-full" src="./assets/images/Rectangle 32.png" alt="Woman portrait in vibrant colors">
+              </div>
               <div class="featured__post__content mx-6 md:mx-1 md:ml-72 py-6">
-                <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
+                <a href="/work-post.html">
+                  <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
+                </a> 
                 <div class="flex py-4 align-items-center">
                   <time datetime="2018-02-14" class="font-light text-md bg-indigo-900 text-white rounded-3xl w-12 text-center">2018</time>
                   <div class="font-light ml-7 text-gray-400">Design, Pattern</div>
@@ -193,13 +201,17 @@
             </div>
 
           </div>
-          <hr style="color: #E0E0E0; background-color: #E0E0E0;">
+          <hr size="1" style="color: #E0E0E0; background-color: #E0E0E0;">
 
-          <div class="featured__post w-full py-3">
+          <div class="featured__post w-full">
             <div class="w-full">
-              <img class="w-full md:w-64 md:float-left" src="./assets/images/Rectangle 32.png" alt="Woman portrait in vibrant colors">
+              <div class="w-full md:w-64 md:float-left">
+                <img class="w-full" src="./assets/images/Rectangle 32.png" alt="Woman portrait in vibrant colors">
+              </div>
               <div class="featured__post__content mx-6 md:mx-1 md:ml-72 py-6">
-                <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
+                <a href="/work-post.html">
+                  <h3 class="text-2xl font-bold text-wrap">Making a design system from scratch</h3>
+                </a> 
                 <div class="flex py-4 align-items-center">
                   <time datetime="2018-02-14" class="font-light text-md bg-indigo-900 text-white rounded-3xl w-12 text-center">2018</time>
                   <div class="font-light ml-7 text-gray-400">Design, Pattern</div>
@@ -212,7 +224,7 @@
             </div>
 
           </div>
-          <hr style="color: #E0E0E0; background-color: #E0E0E0;">
+          <hr size="1" style="color: #E0E0E0; background-color: #E0E0E0;">
 
 
         </div>
